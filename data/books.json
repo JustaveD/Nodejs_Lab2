@@ -1,0 +1,73 @@
+[{
+        "id": 1,
+        "title": "Tôi tài giỏi, bạn cũng thế",
+        "author": "Adam",
+        "price": "120000",
+        "description": "Sách kỹ năng hay",
+        "image": "download.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Càng Kỹ Luật, càng tự do",
+        "author": "Tây Ca",
+        "price": "75000",
+        "description": "Sách kỹ năng hay, nói về tính tự kỹ luật",
+        "image": "cangkyluatcangtudo.jpg"
+    },
+    {
+        "id": 3,
+        "title": "3500 từ vựng Toeic siêu đẳng",
+        "author": "Windy",
+        "price": "50000",
+        "description": "Sách học toeic hay",
+        "image": "3.-Bìa-trước-3500-từ-vựng-TOEIC-siêu-đẳng.jpg"
+    },
+    {
+        "id": 5,
+        "title": "130 Bài ngữ pháp Tiếng Anh",
+        "author": "Alex",
+        "price": "100000",
+        "description": "Sách ngữ pháp Tiếng Anh",
+        "image": "130-bai-ngu-phap-tieng-anh.jpg"
+    },
+    {
+        "id": 6,
+        "title": "21 Cách học Tiếng Anh du kích",
+        "author": "Fususu",
+        "price": "142000",
+        "description": "Sách tiếng anh",
+        "image": "21 cach hoc tieng anh du kich.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Thay thói quen đổi cuộc đời",
+        "author": "Fususu",
+        "price": "134000",
+        "description": "Sách kỹ năng, sách sefl help",
+        "image": "Thay-Thoi-Quen-Doi-Cuoc-Do.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Chinh phục mục tiêu",
+        "author": "Brian Tracy",
+        "price": "99000",
+        "description": "Sách self help",
+        "image": "chinhphucmuctieu.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Chó sủa nhầm cây",
+        "author": "Eric Barker",
+        "price": "123000",
+        "description": "Sách kỹ năng, sách sefl help",
+        "image": "cho sua nham cay.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Cách để trở thành một lãnh đạo xuất sắc",
+        "author": "Paul Slone",
+        "price": "99000",
+        "description": "Sách kỹ năng",
+        "image": "cach de tro thanh mot lanh dao xuat sac.jpg"
+    }
+]

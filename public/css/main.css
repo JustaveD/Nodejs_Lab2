@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #263238;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-direction: column;
+}
+
+h2 {
+    color: yellow;
+    font-size: 50px;
+    font-family: 'Pushster', cursive;
+    letter-spacing: 2px;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    min-width: 154px;
+    text-decoration: none;
+    margin-right: 50px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.btn:hover .button-stroke:nth-child(2) {
+    stroke-dashoffset: 0;
+}
+
+.button-stroke {
+    display: block;
+    width: calc(100% - 40px);
+    height: 20px;
+    stroke: yellow;
+    position: absolute;
+    left: 20px;
+    bottom: -10px;
+    stroke-width: 4;
+}
+
+.button-stroke:nth-child(2) {
+    stroke-dasharray: 650px;
+    stroke-dashoffset: 650px;
+    stroke: #11171a;
+    stroke-width: 5;
+    transition: stroke-dashoffset 800ms ease-out;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+a {
+    font-size: 16px;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
