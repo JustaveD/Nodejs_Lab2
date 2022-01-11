@@ -445,6 +445,7 @@ form button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 100px;
     /* align-items: center; */
 }
 

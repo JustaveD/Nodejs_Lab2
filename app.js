@@ -1,4 +1,6 @@
 const express = require("express");
+const path = require("path");
+const rootDir = require("./utils/path");
 
 const welcomeRouter = require("./routers/welcome");
 const adminRouter = require("./routers/admin");
@@ -13,7 +15,7 @@ app.set("view engine", "ejs");
 app.set("views", "views");
 
 // setup for public resources
-app.use(express.static("public"));
+app.use(express.static(path.join(rootDir,"public")));
 
 // routers
 app.use("/admin", adminRouter);

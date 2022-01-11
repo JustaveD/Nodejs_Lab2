@@ -47,14 +47,14 @@
                     books.forEach(b=>{ %>
                         <div class="book-item">
                             <div class="image">
-                                <img src="../images/<%=b.image %>" alt="">
+                                <img src="/images/<%=b.image %>" alt="">
                             </div>
                             <p class="title">
                                 <%=b.title%>
                             </p>
                             <% b.name %>
                                 <span class="price"><%=b.price%> vnd</span>
-                                <a href="./<%=b.id%>">Xem chi tiết</a>
+                                <a href="/shop/<%=b.id%>">Xem chi tiết</a>
                         </div>
                         <%})}%>
 
